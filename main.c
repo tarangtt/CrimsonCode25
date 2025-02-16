@@ -26,8 +26,7 @@ int main()
 
     plot_function(use_f1, func1_type, a1, b1, scale, 2, '*');
     plot_function(use_f2, func2_type, a2, b2, scale, 3, '#');
-    print_grid();
-    Sleep(5);
+    Sleep(50);
     system("cls");
 
     if (use_f1) print_message(func1_type, a1, b1);
